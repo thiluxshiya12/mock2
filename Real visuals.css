@@ -1,0 +1,95 @@
+h1{color:grey}
+h1{font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+font-weight: bold;
+text-decoration: pink;
+text-align: center;
+
+}
+body{background-color: lightblue;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    display: block;
+    width: 60px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+  li a {
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+h2{color: seashell;}
+h2{font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: pink;
+    }
+
+    /* Search button */
+    * {
+      box-sizing: border-box;
+    }
+    
+form.example input[type=text] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid grey;
+      float: left;
+      width: 20%;
+      background: #f1f1f1;
+    }
+    
+    
+    form.example button {
+      float: left;
+      width: 8%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 18px;
+      border: 1px solid grey;
+      border-left: none; 
+      cursor: pointer;
+    }
+    
+    form.example button:hover {
+      background: #0b7dda;
+      
+    }
+    
+    
+    form.example::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
